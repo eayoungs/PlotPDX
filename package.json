@@ -1,0 +1,23 @@
+{
+  "name": "PlotPDX",
+  "version": "0.0.0",
+  "description": "Examine potential land development in portland",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nikolaswise/PlotPDX.git"
+  },
+  "keywords": [
+    "land",
+    "development",
+    "portland"
+  ],
+  "author": "PlotPDX",
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/nikolaswise/PlotPDX/issues"
+  }
+}
