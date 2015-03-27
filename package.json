@@ -12,7 +12,8 @@
     "node-sass": "^2.0.0-beta",
     "parallelshell": "^1.0.4",
     "babel": "~4.7.16",
-    "acetate": "git+ssh://git@github.com:patrickarlt/acetate"
+    "acetate": "git+ssh://git@github.com:patrickarlt/acetate",
+    "elasticsearch": "~4.0.1"
   },
   "dependencies": {
     "esri-leaflet-renderers": "Esri/esri-leaflet-renderers.git#v0.0.1-beta.2"
