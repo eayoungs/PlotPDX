@@ -992,42 +992,42 @@ img {
   letter-spacing: 0em; }
 
 .header-light {
-  font-family: 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
+  font-family: 'Source Sans', Calibri, sans-serif;
   font-weight: 300;
   font-style: normal; }
   .header-light b, .header-light strong {
     font-weight: 400; }
 
 .header-light-italic {
-  font-family: 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
+  font-family: 'Source Sans', Calibri, sans-serif;
   font-weight: 300;
   font-style: italic; }
   .header-light-italic b, .header-light-italic strong {
     font-weight: 400; }
 
 .header-face, h1, h2, h3, h4, h5, h6 {
-  font-family: 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
+  font-family: 'Source Sans', Calibri, sans-serif;
   font-weight: 400;
   font-style: normal; }
   .header-face b, h1 b, h2 b, h3 b, h4 b, h5 b, h6 b, .header-face strong, h1 strong, h2 strong, h3 strong, h4 strong, h5 strong, h6 strong {
     font-weight: 600; }
 
 .header-italic {
-  font-family: 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
+  font-family: 'Source Sans', Calibri, sans-serif;
   font-weight: 400;
   font-style: italic; }
   .header-italic b, .header-italic strong {
     font-weight: 600; }
 
 .header-bold, h5, h6 {
-  font-family: 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
+  font-family: 'Source Sans', Calibri, sans-serif;
   font-weight: 600;
   font-style: normal; }
   .header-bold b, h5 b, h6 b, .header-bold strong, h5 strong, h6 strong {
     font-weight: 600; }
 
 .header-bold-italic {
-  font-family: 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
+  font-family: 'Source Sans', Calibri, sans-serif;
   font-weight: 600;
   font-style: italic; }
   .header-bold-italic b, .header-bold-italic strong {
@@ -1037,28 +1037,28 @@ img {
   letter-spacing: 0.03em; }
 
 .body-face, body {
-  font-family: "Lucida Grande", "Segoe UI", "Arial", sans-serif;
+  font-family: 'Source Sans', Calibri, sans-serif;
   font-weight: 400;
   font-style: normal; }
   .body-face b, body b, .body-face strong, body strong {
     font-weight: 700; }
 
 .body-italic {
-  font-family: "Lucida Grande", "Segoe UI", "Arial", sans-serif;
+  font-family: 'Source Sans', Calibri, sans-serif;
   font-weight: 400;
   font-style: italic; }
   .body-italic b, .body-italic strong {
     font-weight: 700; }
 
 .body-bold, dl dt {
-  font-family: "Lucida Grande", "Segoe UI", "Arial", sans-serif;
+  font-family: 'Source Sans', Calibri, sans-serif;
   font-weight: 700;
   font-style: normal; }
   .body-bold b, dl dt b, .body-bold strong, dl dt strong {
     font-weight: 700; }
 
 .body-bold-italic {
-  font-family: "Lucida Grande", "Segoe UI", "Arial", sans-serif;
+  font-family: 'Source Sans', Calibri, sans-serif;
   font-weight: 700;
   font-style: italic; }
   .body-bold-italic b, .body-bold-italic strong {
@@ -1068,28 +1068,28 @@ img {
   letter-spacing: 0.01em; }
 
 .secondary-face {
-  font-family: Georgia, serif;
+  font-family: 'Source Sans', sans-serif;
   font-weight: 400;
   font-style: normal; }
   .secondary-face b, .secondary-face strong {
     font-weight: 700; }
 
 .secondary-italic {
-  font-family: Georgia, serif;
+  font-family: 'Source Sans', sans-serif;
   font-weight: 400;
   font-style: italic; }
   .secondary-italic b, .secondary-italic strong {
     font-weight: 700; }
 
 .secondary-bold {
-  font-family: Georgia, serif;
+  font-family: 'Source Sans', sans-serif;
   font-weight: 700;
   font-style: normal; }
   .secondary-bold b, .secondary-bold strong {
     font-weight: 700; }
 
 .secondary-bold-italic {
-  font-family: Georgia, serif;
+  font-family: 'Source Sans', sans-serif;
   font-weight: 700;
   font-style: italic; }
   .secondary-bold-italic b, .secondary-bold-italic strong {
@@ -1099,14 +1099,14 @@ img {
   letter-spacing: 0em; }
 
 .code-face {
-  font-family: "Consolas", "Andale Mono", "Lucida Console", "Monaco", "Courier New", Courier, monospace;
+  font-family: 'Consolas', 'Andale Mono', 'Lucida Console', 'Monaco', 'Courier New', Courier, monospace;
   font-weight: 400;
   font-style: normal; }
   .code-face b, .code-face strong {
     font-weight: 400; }
 
 .code-italic {
-  font-family: "Consolas", "Andale Mono", "Lucida Console", "Monaco", "Courier New", Courier, monospace;
+  font-family: 'Consolas', 'Andale Mono', 'Lucida Console', 'Monaco', 'Courier New', Courier, monospace;
   font-weight: 400;
   font-style: italic; }
   .code-italic b, .code-italic strong {
@@ -1134,29 +1134,29 @@ body {
     font-size: 0.75rem; }
 
 h1 {
-  font-size: 3.17685rem;
+  font-size: 3.47431rem;
   line-height: 3rem; }
   h1 small, h1 sup, h1 sub {
-    font-size: 2.61792rem; }
+    font-size: 2.77889rem; }
 
 h2 {
-  font-size: 2.61792rem; }
+  font-size: 2.77889rem; }
   h2 small, h2 sup, h2 sub {
-    font-size: 1.96344rem; }
+    font-size: 2.08417rem; }
 
 h3 {
-  font-size: 1.96344rem;
+  font-size: 2.08417rem;
   line-height: 2.25rem; }
   h3 small, h3 sup, h3 sub {
-    font-size: 1.618rem; }
+    font-size: 1.667rem; }
 
 h4 {
-  font-size: 1.618rem; }
+  font-size: 1.667rem; }
   h4 small, h4 sup, h4 sub {
-    font-size: 1.2135rem; }
+    font-size: 1.25025rem; }
 
 h5 {
-  font-size: 1.2135rem;
+  font-size: 1.25025rem;
   line-height: 1.5rem; }
   h5 small, h5 sup, h5 sub {
     font-size: 1rem; }
@@ -1178,7 +1178,7 @@ blockquote {
   margin: 0; }
 
 blockquote, blockquote p {
-  font-size: 1.2135rem;
+  font-size: 1.25025rem;
   line-height: 1.5rem; }
   blockquote small, blockquote sup, blockquote sub, blockquote p small, blockquote p sup, blockquote p sub {
     font-size: 1rem; }
@@ -1205,7 +1205,7 @@ dl dd {
   margin-bottom: 1.5rem; }
 
 code, kbd, pre, samp {
-  font-family: "Consolas", "Andale Mono", "Lucida Console", "Monaco", "Courier New", Courier, monospace; }
+  font-family: 'Consolas', 'Andale Mono', 'Lucida Console', 'Monaco', 'Courier New', Courier, monospace; }
 
 code {
   white-space: pre; }
@@ -1226,4 +1226,145 @@ mark {
   content: "";
   display: table;
   clear: both; }
+
+.text-rule {
+  border-bottom: 1px solid #d6d6d6; }
+
+.text-inline {
+  display: inline; }
+
+.text-center {
+  text-align: center; }
+
+.text-left {
+  text-align: left; }
+
+.text-right {
+  text-align: right; }
+
+.text-light {
+  opacity: 0.66; }
+
+.text-ellipsis {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis; }
+
+.list-numbered {
+  counter-reset: li;
+  list-style: none;
+  position: relative;
+  padding-bottom: 1em; }
+  .list-numbered > li {
+    padding: 0.3em .25em .25em 2.5em;
+    position: relative;
+    margin-bottom: 0.75em; }
+    .list-numbered > li:before {
+      content: counter(li);
+      counter-increment: li;
+      position: absolute;
+      top: 0;
+      left: 0;
+      height: 100%;
+      width: 0.75em;
+      padding: 0 .5em 0 0;
+      color: #c7c7c7;
+      font-size: 1.25025rem;
+      line-height: 1.5rem;
+      line-height: 2.25rem;
+      text-align: right;
+      border-right: 2px solid #e6e6e6; }
+      .list-numbered > li:before small, .list-numbered > li:before sup, .list-numbered > li:before sub {
+        font-size: 1rem; }
+    .list-numbered > li:after {
+      content: ".";
+      display: block;
+      clear: left;
+      visibility: hidden;
+      line-height: 0;
+      height: 0; }
+  .list-numbered .list-numbered {
+    margin-bottom: 0;
+    padding-bottom: 0; }
+    .list-numbered .list-numbered > li:before {
+      content: counter(li, lower-alpha); }
+
+.list-bulleted {
+  list-style-type: circle; }
+
+.font-size--3 {
+  font-size: 0.44991rem;
+  line-height: 1.5rem; }
+  .font-size--3 small, .font-size--3 sup, .font-size--3 sub {
+    font-size: 0.35986rem; }
+
+.font-size--2 {
+  font-size: 0.59988rem;
+  line-height: 1.5rem; }
+  .font-size--2 small, .font-size--2 sup, .font-size--2 sub {
+    font-size: 0.44991rem; }
+
+.font-size--1 {
+  font-size: 0.75rem;
+  line-height: 1.5rem; }
+  .font-size--1 small, .font-size--1 sup, .font-size--1 sub {
+    font-size: 0.59988rem; }
+
+.font-size-0 {
+  font-size: 1rem;
+  line-height: 1.5rem; }
+  .font-size-0 small, .font-size-0 sup, .font-size-0 sub {
+    font-size: 0.75rem; }
+
+.font-size-1 {
+  font-size: 1.25025rem;
+  line-height: 1.5rem; }
+  .font-size-1 small, .font-size-1 sup, .font-size-1 sub {
+    font-size: 1rem; }
+
+.font-size-2 {
+  font-size: 1.667rem; }
+  .font-size-2 small, .font-size-2 sup, .font-size-2 sub {
+    font-size: 1.25025rem; }
+
+.font-size-3 {
+  font-size: 2.08417rem;
+  line-height: 2.25rem; }
+  .font-size-3 small, .font-size-3 sup, .font-size-3 sub {
+    font-size: 1.667rem; }
+
+.font-size-4 {
+  font-size: 2.77889rem; }
+  .font-size-4 small, .font-size-4 sup, .font-size-4 sub {
+    font-size: 2.08417rem; }
+
+.font-size-5 {
+  font-size: 3.47431rem;
+  line-height: 3rem; }
+  .font-size-5 small, .font-size-5 sup, .font-size-5 sub {
+    font-size: 2.77889rem; }
+
+.font-size-6 {
+  font-size: 4.63241rem; }
+  .font-size-6 small, .font-size-6 sup, .font-size-6 sub {
+    font-size: 3.47431rem; }
+
+.font-size-7 {
+  font-size: 5.79167rem; }
+  .font-size-7 small, .font-size-7 sup, .font-size-7 sub {
+    font-size: 4.63241rem; }
+
+.font-size-8 {
+  font-size: 7.72222rem; }
+  .font-size-8 small, .font-size-8 sup, .font-size-8 sub {
+    font-size: 5.79167rem; }
+
+.right {
+  float: right; }
+
+.left {
+  float: left; }
+
+.top-nav {
+  background-color: blue; }
 

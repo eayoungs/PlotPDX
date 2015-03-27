@@ -1,5 +1,3 @@
-.link-red a, a.link-red                   { @include link-color($maroon, $blue-gray);}
-
 .text-rule         {@include text-rule();}
 .text-inline       {@include text-inline();}
 .text-center       {@include text-center();}
