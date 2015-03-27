@@ -16,7 +16,8 @@
     "elasticsearch": "~4.0.1"
   },
   "dependencies": {
-    "esri-leaflet-renderers": "Esri/esri-leaflet-renderers.git#v0.0.1-beta.2"
+    "esri-leaflet-renderers": "Esri/esri-leaflet-renderers.git#v0.0.1-beta.2",
+    "hapi": "~8.4.0"
   },
   "repository": {
     "type": "git",
@@ -33,14 +34,14 @@
     "url": "https://github.com/nikolaswise/PlotPDX/issues"
   },
   "scripts": {
-    "start": "npm run dev",
-    "dev": "parallelshell 'live-server www' 'npm run watch:js' 'npm run watch:sass'",
+    "start": "node server.js",
+    "dev": "parallelshell 'node server.js' 'npm run watch:js' 'npm run watch:form' 'npm run watch:sass' 'npm run watch:html'",
     "compile": "browserify -e src/assets/js/index.js -d -t [ babelify --sourceMapRelative .] -o www/assets/js/bundle.js",
     "fmt": "standard --format",
     "img": "imageoptim -d src/assets/img/",
     "predev": "npm run prepublish",
     "prepublish": "npm run compile && npm run sass && npm run build",
-    "sass": "scss-cli --include-path bower_components/ 'src/assets/css/style.scss' -o www/assets/css",
+    "sass": "scss-cli --include-path node_modules/ 'src/assets/css/style.scss' -o www/assets/css",
     "build": "acetate build",
     "watch:js": "fsmonitor -d src/assets/js/ npm run compile",
     "watch:sass": "fsmonitor -d src/assets/css/ npm run sass ",
