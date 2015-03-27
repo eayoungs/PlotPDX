@@ -1365,9 +1365,6 @@ mark {
 .left {
   float: left; }
 
-.top-nav {
-  background-color: blue; }
-
 body {
   display: flex;
   height: 100%;
