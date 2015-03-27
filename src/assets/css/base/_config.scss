@@ -1,1 +1,154 @@
-$red: red;
+
+// ┌──────────────────┐
+// │ COLOR: GRAYSCALE │
+// └──────────────────┘
+$white:                    hsl(0, 0, 100);
+$off-white:                hsl(0, 0, 98);
+$lightest-gray:            hsl(0, 0, 95);
+$lighter-gray:             hsl(0, 0, 90);
+$light-gray:               hsl(0, 0, 84);
+$gray:                     hsl(0, 0, 78);
+$dark-gray:                hsl(0, 0, 64);
+$darker-gray:              hsl(0, 0, 49);
+$darkest-gray:             hsl(0, 0, 34);
+$off-black:                hsl(0, 0, 25);
+$black:                    hsl(0, 0, 19);
+
+$transparent-off-black:    rgba(0, 0, 0, 0.45);
+$transparent-black:        rgba(0, 0, 0, 0.75);
+
+// ┌──────────────┐
+// │ COLOR: BRAND │
+// └──────────────┘
+
+
+
+// ┌─────────────────┐
+// │ SCALE:  MUSICAL │
+// └─────────────────┘
+$octave:                   2;
+$major7th:                 1.875;
+$minor7th:                 1.778;
+$major6th:                 1.667;
+$minor6th:                 1.6;
+$fifth:                    1.5;
+$dim5th:                   1.414;
+$aug4th:                   1.414;
+$fourth:                   1.33;
+$major3rd:                 1.25;
+$minor3rd:                 1.2;
+$major2nd:                 1.125;
+$minor2nd:                 1.067;
+$unison:                   1;
+
+// ┌───────────────┐
+// │ SCALE:  OTHER │
+// └───────────────┘
+$golden:                   1.618;
+
+// ┌────────────┐
+// │ Structural │
+// └────────────┘
+$ratio:                    $major6th;
+$body-size:                1rem;
+$small-size:               0.75rem;
+$baseline:                 1.833rem;
+$indent:                   1em;
+
+// ┌───────────────┐
+// │ Font Families │
+// └───────────────┘
+$header-family:            'Gill Sans',
+                           'Gill Sans MT',
+                           Calibri,
+                           sans-serif;
+
+$header-thin:              false;
+$header-thin:              false;
+$header-light:             300, 400;
+$header-regular:           400, 600;
+$header-medium:            false;
+$header-demi:              false;
+$header-bold:              600, 600;
+$header-black:             false;
+
+$body-family:              $header-family;
+$body-thin:                false;
+$body-thin:                false;
+$body-light:               false;
+$body-regular:             400, 700;
+$body-medium:              false;
+$body-demi:                false;
+$body-bold:                700, 700;
+$body-black:               false;
+
+$secondary-family:         'Superclarendon',
+                           serif;
+
+$secondary-thin:           false;
+$secondary-thin:           false;
+$secondary-light:          false;
+$secondary-regular:        400, 700;
+$secondary-medium:         false;
+$secondary-demi:           false;
+$secondary-bold:           700, 700;
+$secondary-black:          false;
+
+$code-family:              'Consolas',
+                           'Andale Mono',
+                           'Lucida Console',
+                           'Monaco',
+                           'Courier New',
+                           Courier,
+                           monospace;
+
+$code-thin:                false;
+$code-thin:                false;
+$code-light:               false;
+$code-regular:             400, 400;
+$code-medium:              false;
+$code-demi:                false;
+$code-bold:                false;
+$code-black:               false;
+
+
+// ┌───────────────┐
+// │ Base Tracking │
+// └───────────────┘
+$header-tracking:          0;
+$body-tracking:            30;
+$secondary-tracking:       10;
+$code-tracking:            0;
+
+// Breakpoints
+$small:                    480px;
+$medium:                   860px;
+$large:                    1280px;
+
+// Grid Settings
+$vw-ratio:                 0.9;
+$container-width:          $vw-ratio * 100vw;
+$container-min:            0;
+$container-max:            $large * $vw-ratio;
+$column-gutter:            1rem;
+
+// Grid Fallback Options
+$ie8-support:              false;
+$column-gutter-fallback:   20px;
+$container-width-fallback: 960px;
+
+// Large
+$large-class:              'column';
+$large-column-count:       24;
+
+// Medium
+$medium-class:             'tablet';
+$medium-column-count:      12;
+
+// Small
+$small-class:              'phone';
+$small-column-count:       6;
+
+// Vertical Rhythm
+$baseline:                 1.5rem;
+$vertical-range:           6;
