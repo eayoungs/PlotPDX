@@ -21,20 +21,31 @@
     {% block head %}{% endblock %}
   </head>
   <body>
-    <header class="top-nav">
-      <div class="container">
-        <div class="left top-nav-logo">
-          <a href="/" class="top-nav-logo-link">PlotPDX</a>
+
+    <div class="wrapper">
+      <header class="top-nav">
+        <div class="container">
+          <div class="left top-nav-logo">
+            <a href="/" class="top-nav-logo-link">PlotPDX</a>
+          </div>
+          <nav class="right top-nav-sections">
+            <a href="/explore" class="top-nav-link">Plot</a>
+            <a href="/about" class="top-nav-link">About</a>
+          </nav>
         </div>
-        <nav class="right top-nav-sections">
-          <a href="/explore" class="top-nav-link">Plot</a>
-          <a href="/explore" class="top-nav-link">About</a>
-        </nav>
-      </div>
-    </header>
+      </header>
 
+      {% block content %}{% endblock %}
 
-    {% block content %}{% endblock %}
+    </div>
+
+    <footer class="footer">
+      <nav class="text-center">
+        <a href="/about">About PlotPDX</a>
+        <a href="/faq">Frequently Asked Questions</a>
+        <a href="/team">Team</a>
+      </nav>
+    </footer>
 
     <script src="/assets/js/bundle.js"></script>
 

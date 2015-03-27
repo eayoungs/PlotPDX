@@ -8,6 +8,8 @@
 @import "base/text-mixins";
 @import "base/text-helpers";
 
+
+// TOPNAV
 .top-nav {
   background-color: blue;
 }
@@ -15,3 +17,16 @@
   .top-nav-logo-link {}
   .top-nav-sections {}
   .top-nav-link {}
+
+// FOOTER
+body {
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+}
+.wrapper {
+  flex: 1 0 auto;
+}
+.footer {
+  flex: none;
+}
