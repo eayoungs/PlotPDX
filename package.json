@@ -5,13 +5,14 @@
   "main": "index.js",
   "devDependencies": {
     "fsmonitor": "^0.2.4",
-    "babelify": "^4.1.0",
+    "babelify": "^5.0.4",
     "browserify": "^8.1.3",
-    "fsmonitor": "^0.2.4",
     "imageoptim-cli": "^1.11.4",
     "live-server": "^0.6.3",
     "node-sass": "^2.0.0-beta",
-    "parallelshell": "^1.0.4"
+    "parallelshell": "^1.0.4",
+    "babel": "~4.7.16",
+    "acetate": "git+ssh://git@github.com:patrickarlt/acetate"
   },
   "dependencies": {
     "esri-leaflet-renderers": "Esri/esri-leaflet-renderers.git#v0.0.1-beta.2"
@@ -32,16 +33,16 @@
   },
   "scripts": {
     "start": "npm run dev",
-    "dev": "parallelshell 'live-server' 'npm run watch:js' 'npm run watch:sass'",
-    "compile": "browserify -e source/assets/js/index.js -d -t [ babelify --sourceMapRelative .] -o www/assets/js/bundle.js",
+    "dev": "parallelshell 'live-server www' 'npm run watch:js' 'npm run watch:sass'",
+    "compile": "browserify -e src/assets/js/index.js -d -t [ babelify --sourceMapRelative .] -o www/assets/js/bundle.js",
     "fmt": "standard --format",
-    "img": "imageoptim -d source/assets/img/",
+    "img": "imageoptim -d src/assets/img/",
     "predev": "npm run prepublish",
     "prepublish": "npm run compile && npm run sass && npm run build",
-    "sass": "scss-cli --include-path bower_components/ 'source/assets/css/style.scss' -o www/assets/css",
+    "sass": "scss-cli --include-path bower_components/ 'src/assets/css/style.scss' -o www/assets/css",
     "build": "acetate build",
-    "watch:js": "fsmonitor -d source/assets/js/ npm run compile",
-    "watch:sass": "fsmonitor -d source/assets/css/ npm run sass ",
-    "watch:html": "fsmonitor -d source/ npm run build"
+    "watch:js": "fsmonitor -d src/assets/js/ npm run compile",
+    "watch:sass": "fsmonitor -d src/assets/css/ npm run sass ",
+    "watch:html": "fsmonitor -d src/ npm run build"
   }
 }
