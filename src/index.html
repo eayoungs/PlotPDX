@@ -6,13 +6,13 @@ title: Home
 <header class='header text-center'>
   <div class="container">
     <h1 class="secondary-bold">Plot PDX</h1>
-    <h2>Choose Your City's Story</h2>
+    <h2>Welcome! Scroll around, see what lots or buildings are underutilized in your city.</h2>
   </div>
 </header>
 
 <main class="container">
   {% for plot in plots %}
-    <h1>Plot Plotting ...</h1>
+    <h1>{{plot.properties.where}}</h1>
   {% endfor %}
 </main>
 

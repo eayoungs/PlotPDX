@@ -1,24 +1,74 @@
 [
   {
-    "type": "Point",
-    "coordinates": [
-      -122.69621,
-      45.57422
-    ],
+    "type": "Polygon",
     "properties": {
-      "title": "foo",
-      "desciption": "bar"
+      "where": "140 Davis (4th +Davis)",
+      "description": "Underutilized building, Chinese design.",
+      "suggestion":" Grocery Store",
+      "reason": "There are no grocery stores within walking distance in the area. Also the location is near the MAX, which would provide close public transportation after grocery shopping."
     }
   },
   {
-    "type": "Point",
-    "coordinates": [
-      -122.61621,
-      45.51422
-    ],
+    "type": "Polygon",
     "properties": {
-      "title": "foo",
-      "desciption": "bar"
+      "where": "At the corner of 4th Avenue + Davis ",
+      "description": "Vacant, underutilized building with boarded up windows",
+      "suggestion":" Residential Apartments",
+      "reason": "Right in the heart of Old Town, remodeled apartments could serve students who attend the University of Oregon campus, or residents seeking living situation in a district that is being revamped. "
+    }
+  },
+  {
+    "type": "Polygon",
+    "properties": {
+      "where": "On Couch Street between 3rd and 4th Avenue ",
+      "plans": "For Lease",
+      "suggestion":" A community space- karate studio for kids",
+      "reason": "There are not many spaces for community members to come together in the area. "
+    }
+  },
+  {
+    "type": "Polygon",
+    "properties": {
+      "where": "The Block at MLK Boulevard + NE Cook",
+      "description": "Big, open grassy lot with sidewalks lining edges",
+      "suggestion":" Community Space where people can rent office space and hold local meetings",
+      "reason": "The area is heavy with residences and retail shops. It could use more community support"
+    }
+  },
+  {
+    "type": "Polygon",
+    "properties": {
+      "where": "At the corner of MLK + NE Fargo",
+      "description": "Concrete lot- no parking",
+      "suggestion":" Food Cart Pod",
+      "reason": "There are a lot of businesses around here, but no food."
+    }
+  },
+  {
+    "type": "Polygon",
+    "properties": {
+      "where": "5th Avenue and Alberta",
+      "description": "Boarded up, underutilized building",
+      "suggestion": "Small local business",
+      "reason": "The street is vibrant and could be expanded closer to MLK."
+    }
+  },
+  {
+    "type": "Polygon",
+    "properties": {
+      "where": "At the corner of 12th + Alberta",
+      "description": "Lot consisting of a mix of concrete and grass. Graffiti and other artwork on fences. Right in the middle of the vibrant Alberta street.",
+      "suggestion": "Small park",
+      "reason": "The area has plenty of food and shopping. A park that promotes play for surrounding residential areas would bring in more locals to a traditionally touristy area."
+    }
+  },
+  {
+    "type": "Polygon",
+    "properties": {
+      "where": "At the corner of 23rd and Wygant",
+      "description": "Empty lot in the middle of residential neighborhood",
+      "suggestion": "Community garden",
+      "reason": "There are a lot of houses in the area and no gardens."
     }
   }
 ]

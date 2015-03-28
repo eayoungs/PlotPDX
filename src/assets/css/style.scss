@@ -9,6 +9,13 @@
 @import "base/text-helpers";
 
 
+// Fonts
+html {
+  font-size: 16px;
+  color: $off-black;
+  background-color: $off-white;
+}
+
 // TOPNAV
 .top-nav {
   // background-color: blue;

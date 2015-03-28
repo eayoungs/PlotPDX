@@ -49,16 +49,17 @@ $golden:                   1.618;
 // ┌────────────┐
 // │ Structural │
 // └────────────┘
-$ratio:                    $major6th;
+$ratio:                    $golden;
 $body-size:                1rem;
 $small-size:               0.75rem;
 $baseline:                 1.833rem;
 $indent:                   1em;
 
+
 // ┌───────────────┐
 // │ Font Families │
 // └───────────────┘
-$header-family:            'Source Sans',
+$header-family:            'Source Sans Pro',
                            Calibri,
                            sans-serif;
 
@@ -75,22 +76,22 @@ $body-family:              $header-family;
 $body-thin:                false;
 $body-thin:                false;
 $body-light:               false;
-$body-regular:             400, 700;
+$body-regular:             400, 600;
 $body-medium:              false;
 $body-demi:                false;
-$body-bold:                700, 700;
+$body-bold:                600, 600;
 $body-black:               false;
 
-$secondary-family:         'Source Sans',
+$secondary-family:         'Source Serif Pro',
                            sans-serif;
 
 $secondary-thin:           false;
 $secondary-thin:           false;
 $secondary-light:          false;
-$secondary-regular:        400, 700;
+$secondary-regular:        400, 600;
 $secondary-medium:         false;
 $secondary-demi:           false;
-$secondary-bold:           700, 700;
+$secondary-bold:           600, 600;
 $secondary-black:          false;
 
 $code-family:              'Consolas',
@@ -115,21 +116,21 @@ $code-black:               false;
 // │ Base Tracking │
 // └───────────────┘
 $header-tracking:          0;
-$body-tracking:            30;
-$secondary-tracking:       10;
+$body-tracking:            0;
+$secondary-tracking:       0;
 $code-tracking:            0;
 
 // Breakpoints
 $small:                    480px;
-$medium:                   860px;
-$large:                    1280px;
+$medium:                   720px;
+$large:                    960px;
 
 // Grid Settings
 $vw-ratio:                 0.9;
 $container-width:          $vw-ratio * 100vw;
 $container-min:            0;
 $container-max:            $large * $vw-ratio;
-$column-gutter:            1rem;
+$column-gutter:            2rem;
 
 // Grid Fallback Options
 $ie8-support:              false;
@@ -138,7 +139,7 @@ $container-width-fallback: 960px;
 
 // Large
 $large-class:              'column';
-$large-column-count:       24;
+$large-column-count:       12;
 
 // Medium
 $medium-class:             'tablet';
