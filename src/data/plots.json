@@ -1,0 +1,24 @@
+[
+  {
+    "type": "Point",
+    "coordinates": [
+      -122.69621,
+      45.57422
+    ],
+    "properties": {
+      "title": "foo",
+      "desciption": "bar"
+    }
+  },
+  {
+    "type": "Point",
+    "coordinates": [
+      -122.61621,
+      45.51422
+    ],
+    "properties": {
+      "title": "foo",
+      "desciption": "bar"
+    }
+  }
+]

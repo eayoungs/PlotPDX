@@ -1,21 +1,28 @@
-console.log('well here goes nothing ...')
+import Plotter from './plotter.js';
 
 var elasticsearch = require('elasticsearch');
 
 var client = new elasticsearch.Client({
   host: 'http://52.0.223.139:9200',
-  log: 'trace'
+  log: 'trace',
+  keepAlive: false
 });
 
-client.ping({
-  requestTimeout: 30000,
+var plotter = new Plotter(client)
 
-  // undocumented params are appended to the query string
-  hello: "elasticsearch!"
-}, function (error) {
-  if (error) {
-    console.error('elasticsearch cluster is down!');
-  } else {
-    console.log('All is well');
+plotter.hello('plotter')
+
+var testPlot = {
+  "type": "Point",
+  "coordinates": [
+    -122.79621,
+    45.57422
+  ],
+  "properties": {
+    "cool": "plot",
+    "yes": 3,
+    "no": 4
   }
-});
+}
+
+// plotter.makePlot(testPlot)
