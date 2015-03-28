@@ -1,13 +1,13 @@
 ---
-title: This Plot
+title: Created Plot
 description: Discover and Engage
 plot: {
   "type": "Polygon",
   "properties": {
-    "where": "140 Davis (4th +Davis)",
-    "description": "Underutilized building, Chinese design.",
-    "suggestion":" Grocery Store",
-    "reason": "There are no grocery stores within walking distance in the area. Also the location is near the MAX, which would provide close public transportation after grocery shopping."
+    "where": "Our Plot",
+    "description": "Nothing.",
+    "suggestion": "Our Suggestion",
+    "reason": "Our reason"
   }
 }
 ---
@@ -32,7 +32,7 @@ plot: {
       </h3>
       <p class="text-blue font-size-1">Would this empty lot serve the city better as a <span class="text-teal font-size-1">{{ plot.properties.suggestion }}?</span></p>
       <h5 class="header-bold">Why?</h5>
-      <p>There are no grocery stores within walking distance in the area. Also the location is near the MAX, which would provide close public transportation after grocery shopping.</p>
+      <p>{{ plot.properties.reason }}</p>
 
       <h5>Right now, this plot is:</h5>
       <p>{{ plot.properties.description }}</p>

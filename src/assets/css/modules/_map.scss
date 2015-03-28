@@ -1,0 +1,32 @@
+
+.map-fullscreen {
+  position: absolute;
+  top:0;
+  bottom:0;
+  right:0;
+  left:0;
+}
+
+.map-header {
+  position: absolute;
+  top:0;
+  right:0;
+  left:0;
+  height: 17.33*$baseline;
+}
+
+.leaflet-left .leaflet-control {
+  left: $baseline/2
+}
+
+.leaflet-right .leaflet-control {
+  right: $baseline/2
+}
+
+.leaflet-top .leaflet-control {
+  top: 2*$baseline
+}
+
+.leaflet-bottom .leaflet-control {
+  bottom: 2*$baseline
+}

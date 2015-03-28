@@ -2,6 +2,7 @@
   {
     "type": "Polygon",
     "properties": {
+      "img": "4th-and-davis.png",
       "where": "140 Davis (4th +Davis)",
       "description": "Underutilized building, Chinese design.",
       "suggestion":" Grocery Store",
@@ -11,6 +12,7 @@
   {
     "type": "Polygon",
     "properties": {
+      "img": "4th-and-davis.png",
       "where": "At the corner of 4th Avenue + Davis ",
       "description": "Vacant, underutilized building with boarded up windows",
       "suggestion":" Residential Apartments",

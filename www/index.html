@@ -21,145 +21,216 @@
     <!-- google fonts -->
     <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,300italic,400italic,600italic|Source+Serif+Pro:400,600' rel='stylesheet' type='text/css'>
 
+    <!-- leaflet -->
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/leaflet/0.7.3/leaflet.css" />
+    <script src="//cdn.jsdelivr.net/leaflet/0.7.3/leaflet.js"></script>
+    <script src="http://cdn-geoweb.s3.amazonaws.com/esri-leaflet/1.0.0-rc.6/esri-leaflet.js"></script>
+    <script src="http://cdn-geoweb.s3.amazonaws.com/esri-leaflet-renderers/0.0.1-beta.3/esri-leaflet-renderers.js"></script>
+    <script src="http://cdn-geoweb.s3.amazonaws.com/esri-leaflet-geocoder/1.0.0-rc.4/esri-leaflet-geocoder.js"></script>
+    <link rel="stylesheet" type="text/css" href="http://cdn-geoweb.s3.amazonaws.com/esri-leaflet-geocoder/1.0.0-rc.4/esri-leaflet-geocoder.css">
+
     
   </head>
   <body>
 
     <div class="wrapper">
       <header class="top-nav">
-        <div class="container">
-          <div class="left top-nav-logo">
-            <a href="/" class="top-nav-logo-link">
-              <span class="site-name">PlotPDX</span>
-              <span> Choose your city’s story</span>
+        <div class="left top-nav-logo font-size-1">
+          <span>
+            <a href="/" class="top-nav-logo-link link-white">
+              <span class="site-name">! PlotPDX</span>
             </a>
-          </div>
-          <nav class="right top-nav-sections">
-            <a href="/explore" class="top-nav-link">Plot</a>
-            <a href="/about" class="top-nav-link">About</a>
-          </nav>
+            <span class="text-black font-size-0"> Choose your city’s story</span>
+          </span>
         </div>
+        <nav class="right top-nav-sections">
+          <a href="/explore" class="top-nav-add link-white"></a>
+          <a href="/about" class="top-nav-about link-white"></a>
+        </nav>
       </header>
 
       
 
-<header class='header text-center padding-leader-2 padding-trailer-5'>
+<header class='header text-center padding-leader-5 padding-trailer-6 trailer-2'>
   <div class="container">
-    <div class="column-8 pre-2">
-      <h1>Plot PDX</h1>
-      <h2 class="font-size-2">Welcome! Scroll around, see what lots or buildings are underutilized in your city.</h2>
+    <div class="column-12">
+      <h1 class="header-bold text-blue">! Plot PDX</h1>
+      <h2 class="font-size-2 text-white">Welcome! Scroll around, see what lots or buildings are underutilized in&nbsp;your&nbsp;city.</h2>
     </div>
   </div>
 </header>
 
-<main class="container">
-  
-    <section class="trailer-2 column-12">
+
+
+  <section class="container">
+    <div class="trailer-1 column-12 plot-suggestion">
       <div class="column-6">
-        <img src="http://www.fillmurray.com/460/300">
+        <a href="/this-plot">
+          
+            <img class="map-thumbnail" src="/assets/img/4th-and-davis.png">
+          
+        </a>
       </div>
+      <div class="column-5 pre-1">
+        <h3 class="header-bold leader-0">
+          <a href="/this-plot">140 Davis (4th +Davis)</a>
+        </h3>
+        <p class="text-blue font-size-1">Would this empty lot serve the city better as a <span class="text-teal font-size-1"> Grocery Store?</span></p>
+        <button class="btn btn-blue">Yes</button> <button class="btn btn-red">No</button>
+      </div>
+    </div>
+  </section>
+  <hr class="trailer-1">
+
+  <section class="container">
+    <div class="trailer-1 column-12 plot-suggestion">
       <div class="column-6">
-        <h3>140 Davis (4th +Davis)</h3>
-        <p class="trailer-0">Would this make a good</p>
-        <p> Grocery Store ?</p>
-        <button>Yes</button><button>No</button>
+        <a href="/this-plot">
+          
+            <img class="map-thumbnail" src="/assets/img/4th-and-davis.png">
+          
+        </a>
       </div>
-    </section>
-  
-    <section class="trailer-2 column-12">
+      <div class="column-5 pre-1">
+        <h3 class="header-bold leader-0">
+          <a href="/this-plot">At the corner of 4th Avenue + Davis </a>
+        </h3>
+        <p class="text-blue font-size-1">Would this empty lot serve the city better as a <span class="text-teal font-size-1"> Residential Apartments?</span></p>
+        <button class="btn btn-blue">Yes</button> <button class="btn btn-red">No</button>
+      </div>
+    </div>
+  </section>
+  <hr class="trailer-1">
+
+  <section class="container">
+    <div class="trailer-1 column-12 plot-suggestion">
       <div class="column-6">
-        <img src="http://www.fillmurray.com/460/300">
+        <a href="/this-plot">
+          
+            <img class="map-thumbnail" src="http://www.fillmurray.com/460/300">
+          
+        </a>
       </div>
+      <div class="column-5 pre-1">
+        <h3 class="header-bold leader-0">
+          <a href="/this-plot">On Couch Street between 3rd and 4th Avenue </a>
+        </h3>
+        <p class="text-blue font-size-1">Would this empty lot serve the city better as a <span class="text-teal font-size-1"> A community space- karate studio for kids?</span></p>
+        <button class="btn btn-blue">Yes</button> <button class="btn btn-red">No</button>
+      </div>
+    </div>
+  </section>
+  <hr class="trailer-1">
+
+  <section class="container">
+    <div class="trailer-1 column-12 plot-suggestion">
       <div class="column-6">
-        <h3>At the corner of 4th Avenue + Davis </h3>
-        <p class="trailer-0">Would this make a good</p>
-        <p> Residential Apartments ?</p>
-        <button>Yes</button><button>No</button>
+        <a href="/this-plot">
+          
+            <img class="map-thumbnail" src="http://www.fillmurray.com/460/300">
+          
+        </a>
       </div>
-    </section>
-  
-    <section class="trailer-2 column-12">
+      <div class="column-5 pre-1">
+        <h3 class="header-bold leader-0">
+          <a href="/this-plot">The Block at MLK Boulevard + NE Cook</a>
+        </h3>
+        <p class="text-blue font-size-1">Would this empty lot serve the city better as a <span class="text-teal font-size-1"> Community Space where people can rent office space and hold local meetings?</span></p>
+        <button class="btn btn-blue">Yes</button> <button class="btn btn-red">No</button>
+      </div>
+    </div>
+  </section>
+  <hr class="trailer-1">
+
+  <section class="container">
+    <div class="trailer-1 column-12 plot-suggestion">
       <div class="column-6">
-        <img src="http://www.fillmurray.com/460/300">
+        <a href="/this-plot">
+          
+            <img class="map-thumbnail" src="http://www.fillmurray.com/460/300">
+          
+        </a>
       </div>
+      <div class="column-5 pre-1">
+        <h3 class="header-bold leader-0">
+          <a href="/this-plot">At the corner of MLK + NE Fargo</a>
+        </h3>
+        <p class="text-blue font-size-1">Would this empty lot serve the city better as a <span class="text-teal font-size-1"> Food Cart Pod?</span></p>
+        <button class="btn btn-blue">Yes</button> <button class="btn btn-red">No</button>
+      </div>
+    </div>
+  </section>
+  <hr class="trailer-1">
+
+  <section class="container">
+    <div class="trailer-1 column-12 plot-suggestion">
       <div class="column-6">
-        <h3>On Couch Street between 3rd and 4th Avenue </h3>
-        <p class="trailer-0">Would this make a good</p>
-        <p> A community space- karate studio for kids ?</p>
-        <button>Yes</button><button>No</button>
+        <a href="/this-plot">
+          
+            <img class="map-thumbnail" src="http://www.fillmurray.com/460/300">
+          
+        </a>
       </div>
-    </section>
-  
-    <section class="trailer-2 column-12">
+      <div class="column-5 pre-1">
+        <h3 class="header-bold leader-0">
+          <a href="/this-plot">5th Avenue and Alberta</a>
+        </h3>
+        <p class="text-blue font-size-1">Would this empty lot serve the city better as a <span class="text-teal font-size-1">Small local business?</span></p>
+        <button class="btn btn-blue">Yes</button> <button class="btn btn-red">No</button>
+      </div>
+    </div>
+  </section>
+  <hr class="trailer-1">
+
+  <section class="container">
+    <div class="trailer-1 column-12 plot-suggestion">
       <div class="column-6">
-        <img src="http://www.fillmurray.com/460/300">
+        <a href="/this-plot">
+          
+            <img class="map-thumbnail" src="http://www.fillmurray.com/460/300">
+          
+        </a>
       </div>
+      <div class="column-5 pre-1">
+        <h3 class="header-bold leader-0">
+          <a href="/this-plot">At the corner of 12th + Alberta</a>
+        </h3>
+        <p class="text-blue font-size-1">Would this empty lot serve the city better as a <span class="text-teal font-size-1">Small park?</span></p>
+        <button class="btn btn-blue">Yes</button> <button class="btn btn-red">No</button>
+      </div>
+    </div>
+  </section>
+  <hr class="trailer-1">
+
+  <section class="container">
+    <div class="trailer-1 column-12 plot-suggestion">
       <div class="column-6">
-        <h3>The Block at MLK Boulevard + NE Cook</h3>
-        <p class="trailer-0">Would this make a good</p>
-        <p> Community Space where people can rent office space and hold local meetings ?</p>
-        <button>Yes</button><button>No</button>
+        <a href="/this-plot">
+          
+            <img class="map-thumbnail" src="http://www.fillmurray.com/460/300">
+          
+        </a>
       </div>
-    </section>
-  
-    <section class="trailer-2 column-12">
-      <div class="column-6">
-        <img src="http://www.fillmurray.com/460/300">
+      <div class="column-5 pre-1">
+        <h3 class="header-bold leader-0">
+          <a href="/this-plot">At the corner of 23rd and Wygant</a>
+        </h3>
+        <p class="text-blue font-size-1">Would this empty lot serve the city better as a <span class="text-teal font-size-1">Community garden?</span></p>
+        <button class="btn btn-blue">Yes</button> <button class="btn btn-red">No</button>
       </div>
-      <div class="column-6">
-        <h3>At the corner of MLK + NE Fargo</h3>
-        <p class="trailer-0">Would this make a good</p>
-        <p> Food Cart Pod ?</p>
-        <button>Yes</button><button>No</button>
-      </div>
-    </section>
-  
-    <section class="trailer-2 column-12">
-      <div class="column-6">
-        <img src="http://www.fillmurray.com/460/300">
-      </div>
-      <div class="column-6">
-        <h3>5th Avenue and Alberta</h3>
-        <p class="trailer-0">Would this make a good</p>
-        <p>Small local business ?</p>
-        <button>Yes</button><button>No</button>
-      </div>
-    </section>
-  
-    <section class="trailer-2 column-12">
-      <div class="column-6">
-        <img src="http://www.fillmurray.com/460/300">
-      </div>
-      <div class="column-6">
-        <h3>At the corner of 12th + Alberta</h3>
-        <p class="trailer-0">Would this make a good</p>
-        <p>Small park ?</p>
-        <button>Yes</button><button>No</button>
-      </div>
-    </section>
-  
-    <section class="trailer-2 column-12">
-      <div class="column-6">
-        <img src="http://www.fillmurray.com/460/300">
-      </div>
-      <div class="column-6">
-        <h3>At the corner of 23rd and Wygant</h3>
-        <p class="trailer-0">Would this make a good</p>
-        <p>Community garden ?</p>
-        <button>Yes</button><button>No</button>
-      </div>
-    </section>
-  
-</main>
+    </div>
+  </section>
+  <hr class="trailer-1">
+
 
     </div>
 
     <footer class="footer">
       <nav class="text-center">
-        <a href="/about">About PlotPDX</a>
-        <a href="/colophon">About the Data</a>
-        <a href="/faq">Frequently Asked Questions</a>
-        <a href="/team">Team</a>
+        <a class="footer-link" href="/about">About PlotPDX</a>
+        <a class="footer-link" href="/colophon">About the Data</a>
+        <a class="footer-link" href="/faq">Frequently Asked Questions</a>
+        <a class="footer-link" href="/team">The Team</a>
       </nav>
     </footer>
 

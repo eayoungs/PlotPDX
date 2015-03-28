@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="26px" height="26px" viewBox="0 0 26 26" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.2.2 (9983) - http://www.bohemiancoding.com/sketch -->
+    <title>? Button</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Final" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="Home" sketch:type="MSArtboardGroup" transform="translate(-1392.000000, -17.000000)">
+            <g id="?-Button" sketch:type="MSLayerGroup" transform="translate(1392.000000, 17.000000)">
+                <circle id="Button" stroke="#FFFFFF" stroke-width="4" fill="#68BFE4" sketch:type="MSShapeGroup" cx="13" cy="13" r="13"></circle>
+                <text id="?" sketch:type="MSTextLayer" font-family="Source Sans Pro" font-size="16" font-weight="bold" line-spacing="24" letter-spacing="0.5" fill="#FFFFFF">
+                    <tspan x="9" y="19">?</tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+</svg>

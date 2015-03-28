@@ -7,33 +7,14 @@
 
 @import "base/text-mixins";
 @import "base/text-helpers";
+@import "base/defaults";
+@import "modules/block-grid";
+@import "modules/buttons";
+@import "base/form";
 
-
-// Fonts
-html {
-  font-size: 16px;
-  color: $off-black;
-  background-color: $off-white;
-}
-
-// TOPNAV
-.top-nav {
-  // background-color: blue;
-}
-  .top-nav-logo {}
-  .top-nav-logo-link {}
-  .top-nav-sections {}
-  .top-nav-link {}
-
-// FOOTER
-body {
-  display: flex;
-  height: 100%;
-  flex-direction: column;
-}
-.wrapper {
-  flex: 1 0 auto;
-}
-.footer {
-  flex: none;
-}
+@import "modules/topnav";
+@import "modules/header";
+@import "modules/map";
+@import "modules/plot-previews";
+@import "modules/plot-page";
+@import "modules/footer";

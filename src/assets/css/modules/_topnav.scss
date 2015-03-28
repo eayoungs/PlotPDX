@@ -1,0 +1,54 @@
+// TOPNAV
+.top-nav {
+  background-color: $blue;
+  padding-top: $baseline/3;
+  padding-bottom: $baseline/3;
+  padding-left: $column-gutter;
+  padding-right: $column-gutter;
+  position: fixed;
+  width: 100%;
+  box-sizing: border-box;
+  z-index: 10;
+  border-bottom: 1px solid rgba($light-gray, 0.2);
+}
+  .top-nav-logo {}
+  .top-nav-logo-link {
+    padding-right: $column-gutter/3;
+    margin-bottom: 0;
+    padding-bottom: 0;
+  }
+  .top-nav-sections {}
+  .top-nav-add {
+    padding-right: 1rem;
+    padding-top: 0.33rem;
+    &:before {
+      padding-right: 0.66rem;
+      content: "";
+      display: inline-block;
+      background-repeat: no-repeat;
+      background-position: center;
+      background-color: transparent;
+      min-height: 1.5rem;
+      min-width: 1.5rem;
+      line-height: 0;
+      top: 1rem;
+      background-size: 100% 100%;
+      background-image: url('/assets/img/add.svg');
+    }
+  }
+  .top-nav-about {
+    &:before {
+      padding-right: 0.66rem;
+      content: "";
+      display: inline-block;
+      background-repeat: no-repeat;
+      background-position: center;
+      background-color: transparent;
+      min-height: 1.5rem;
+      min-width: 1.5rem;
+      line-height: 0;
+      top: 1rem;
+      background-size: 100% 100%;
+      background-image: url('/assets/img/about.svg');
+    }
+  }

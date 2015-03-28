@@ -21,41 +21,79 @@
     <!-- google fonts -->
     <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,300italic,400italic,600italic|Source+Serif+Pro:400,600' rel='stylesheet' type='text/css'>
 
+    <!-- leaflet -->
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/leaflet/0.7.3/leaflet.css" />
+    <script src="//cdn.jsdelivr.net/leaflet/0.7.3/leaflet.js"></script>
+    <script src="http://cdn-geoweb.s3.amazonaws.com/esri-leaflet/1.0.0-rc.6/esri-leaflet.js"></script>
+    <script src="http://cdn-geoweb.s3.amazonaws.com/esri-leaflet-renderers/0.0.1-beta.3/esri-leaflet-renderers.js"></script>
+    <script src="http://cdn-geoweb.s3.amazonaws.com/esri-leaflet-geocoder/1.0.0-rc.4/esri-leaflet-geocoder.js"></script>
+    <link rel="stylesheet" type="text/css" href="http://cdn-geoweb.s3.amazonaws.com/esri-leaflet-geocoder/1.0.0-rc.4/esri-leaflet-geocoder.css">
+
     
   </head>
   <body>
 
     <div class="wrapper">
       <header class="top-nav">
-        <div class="container">
-          <div class="left top-nav-logo">
-            <a href="/" class="top-nav-logo-link">
-              <span class="site-name">PlotPDX</span>
-              <span> Choose your city’s story</span>
+        <div class="left top-nav-logo font-size-1">
+          <span>
+            <a href="/" class="top-nav-logo-link link-white">
+              <span class="site-name">! PlotPDX</span>
             </a>
-          </div>
-          <nav class="right top-nav-sections">
-            <a href="/explore" class="top-nav-link">Plot</a>
-            <a href="/about" class="top-nav-link">About</a>
-          </nav>
+            <span class="text-black font-size-0"> Choose your city’s story</span>
+          </span>
         </div>
+        <nav class="right top-nav-sections">
+          <a href="/explore" class="top-nav-add link-white"></a>
+          <a href="/about" class="top-nav-about link-white"></a>
+        </nav>
       </header>
 
       
 
-<header class='header text-center'>
-  <h1 class="secondary-bold">Plot Plot</h1>
-</header>
+<div id="map" class="map-header"></div>
 
+<section class="container plot-container">
+  <div class="trailer-1 column-12 plot-suggestion">
+    <div class="column-6">
+      <a href="/this-plot">
+        
+          <img class="map-thumbnail trailer-half" src="http://www.fillmurray.com/460/300">
+          <img class="map-thumbnail trailer-half" src="http://www.fillmurray.com/920/600">
+        
+      </a>
+    </div>
+    <div class="column-5 pre-1">
+      <h3 class="header-bold leader-0">
+        <a href="/this-plot">140 Davis (4th +Davis)</a>
+      </h3>
+      <p class="text-blue font-size-1">Would this empty lot serve the city better as a <span class="text-teal font-size-1"> Grocery Store?</span></p>
+      <h5 class="header-bold">Why?</h5>
+      <p>There are no grocery stores within walking distance in the area. Also the location is near the MAX, which would provide close public transportation after grocery shopping.</p>
+
+      <h5>Right now, this plot is:</h5>
+      <p>Underutilized building, Chinese design.</p>
+
+      <h5>This lot is zoned EX</h5>
+      <p>That means that it's zoned to build big cool things.</p>
+
+      <h5>The Median income in this area is $30,000</h5>
+      <p>The Median income for Porland in general is $45,000.</p>
+      <button class="btn btn-blue">Yes</button> <button class="btn btn-red">No</button>
+
+      <h2></h2>
+    </div>
+  </div>
+</section>
 
     </div>
 
     <footer class="footer">
       <nav class="text-center">
-        <a href="/about">About PlotPDX</a>
-        <a href="/colophon">About the Data</a>
-        <a href="/faq">Frequently Asked Questions</a>
-        <a href="/team">Team</a>
+        <a class="footer-link" href="/about">About PlotPDX</a>
+        <a class="footer-link" href="/colophon">About the Data</a>
+        <a class="footer-link" href="/faq">Frequently Asked Questions</a>
+        <a class="footer-link" href="/team">The Team</a>
       </nav>
     </footer>
 

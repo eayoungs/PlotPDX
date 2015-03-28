@@ -8,6 +8,16 @@
 .list-numbered     {@include list-numbered();}
 .list-bulleted     {@include list-bulleted();}
 
+.text-blue {@include text-color($blue)}
+.text-teal {@include text-color($teal)}
+.text-white {@include text-color($white)}
+.text-red {@include text-color($red)}
+.text-red {@include text-color($off-black)}
+
+.link-white {@include link-color($white, $lightest-gray)}
+.link-default {@include link-color($off-black, $blue)}
+
+
 .font-size--3 { @include font-size(-3); }
 .font-size--2 { @include font-size(-2); }
 .font-size--1 { @include font-size(-1); }
