@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+  <head>
+
+    <!-- Set encoding -->
+    <meta charset="utf-8">
+
+    <!-- Always force latest IE rendering engine or request Chrome Frame -->
+    <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible">
+    <meta name="viewport" content="width=device-width, user-scalable=no">
+
+    <!-- Use title from page frontmatter -->
+    <title>This Plot | Plot PDX</title>
+
+    <!-- Link to favicon -->
+    <!-- <link rel="shortcut icon" href="../assets/img/favicon.ico"> -->
+
+    <!-- stylesheets -->
+    <link rel="stylesheet" href="../assets/css/style.css">
+
+    <!-- google fonts -->
+    <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,300italic,400italic,600italic|Source+Serif+Pro:400,600' rel='stylesheet' type='text/css'>
+
+    <!-- leaflet -->
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/leaflet/0.7.3/leaflet.css" />
+    <script src="//cdn.jsdelivr.net/leaflet/0.7.3/leaflet.js"></script>
+    <script src="http://cdn-geoweb.s3.amazonaws.com/esri-leaflet/1.0.0-rc.6/esri-leaflet.js"></script>
+    <script src="http://cdn-geoweb.s3.amazonaws.com/esri-leaflet-renderers/0.0.1-beta.3/esri-leaflet-renderers.js"></script>
+    <script src="http://cdn-geoweb.s3.amazonaws.com/esri-leaflet-geocoder/1.0.0-rc.4/esri-leaflet-geocoder.js"></script>
+    <link rel="stylesheet" type="text/css" href="http://cdn-geoweb.s3.amazonaws.com/esri-leaflet-geocoder/1.0.0-rc.4/esri-leaflet-geocoder.css">
+
+    
+  </head>
+  <body>
+
+    <div class="wrapper">
+      <header class="top-nav">
+        <div class="left top-nav-logo font-size-1">
+          <span>
+            <a href="/" class="top-nav-logo-link link-white">
+              <span class="site-name">! PlotPDX</span>
+            </a>
+            <span class="text-black font-size-0"> Choose your city’s story</span>
+          </span>
+        </div>
+        <nav class="right top-nav-sections">
+          <a href="/explore" class="top-nav-add link-white"></a>
+          <a href="/about" class="top-nav-about link-white"></a>
+        </nav>
+      </header>
+
+      
+
+<div id="map" class="map-header"></div>
+
+<section class="container plot-container">
+  <div class="trailer-1 column-12 plot-suggestion">
+    <div class="column-6">
+      <div class="plot-image-upload text-center padding-leader-2 padding-trailer-2">
+        <p class="font-size-2">Upload Images</p>
+        <a href="#" class="btn btn-teal">Select File</a>
+      </div>
+    </div>
+
+    <div class="column-5 pre-1">
+      <h5 class="header-bold leader-0">Where?</h5>
+      <input type="text" placeholder="Cross street or address">
+
+      <h5 class="header-bold">What's your idea?</h5>
+      <input type="text" placeholder="What should this be?">
+
+      <h5 class="header-bold">Why?</h5>
+      <textarea id="" cols="30" rows="3"></textarea>
+
+      <h5 class="header-bold">What is this now?</h5>
+      <textarea id="" cols="30" rows="3"></textarea>
+
+      <a href="/created-plot" class="btn btn-blue">Plot plot!</a>
+    </div>
+  </div>
+</section>
+
+    </div>
+
+    <footer class="footer">
+      <nav class="text-center">
+        <a class="footer-link" href="/about">About PlotPDX</a>
+        <a class="footer-link" href="/colophon">About the Data</a>
+        <a class="footer-link" href="/faq">Frequently Asked Questions</a>
+        <a class="footer-link" href="/team">The Team</a>
+      </nav>
+    </footer>
+
+    <script src="/assets/js/bundle.js"></script>
+
+  </body>
+</html>

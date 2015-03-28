@@ -1,0 +1,51 @@
+// BUTTONS
+@mixin btn() {
+  position: relative;
+  display: inline-block;
+  padding: $baseline/5 .9rem;
+  width: auto;
+  color: $white;
+  border: 1px solid $red;
+  background-color: $red;
+  @include box-sizing(border-box);
+  @include transition(all 0.05s linear);
+  cursor: pointer;
+  white-space: nowrap;
+
+  @include font-size(-1);
+  @include tracking(200);
+  text-transform: uppercase;
+
+  &:hover, &:focus {
+    background-color: $red;
+    color: $white;
+  }
+  &:active {
+    background-color: $red;
+  }
+}
+
+  @mixin btn-disabled() {
+    background-color: $off-white;
+    border-color: $lightest-gray;
+    cursor: default;
+    pointer-events: none;
+    color: $gray;
+    &:hover {
+      background-color: $light-gray;
+      color: $gray;
+    }
+  }
+
+    @mixin btn-color($value, $dark-value) {
+    background-color: $value;
+    border-color: $dark-value;
+    &:hover {
+      background-color: $dark-value;
+    }
+  }
+
+.btn {@include btn();}
+.btn-red {@include btn-color($red, $red);}
+.btn-blue {@include btn-color($blue, $blue);}
+

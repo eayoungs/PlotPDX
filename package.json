@@ -1,0 +1,50 @@
+{
+  "name": "PlotPDX",
+  "version": "0.0.0",
+  "description": "Examine potential land development in portland",
+  "main": "index.js",
+  "devDependencies": {
+    "fsmonitor": "^0.2.4",
+    "babelify": "^5.0.4",
+    "browserify": "^8.1.3",
+    "imageoptim-cli": "^1.11.4",
+    "live-server": "^0.6.3",
+    "node-sass": "^2.0.0-beta",
+    "parallelshell": "^1.0.4",
+    "babel": "~4.7.16",
+    "acetate": "git+ssh://git@github.com:patrickarlt/acetate",
+    "elasticsearch": "~4.0.1"
+  },
+  "dependencies": {
+    "esri-leaflet-renderers": "Esri/esri-leaflet-renderers.git#v0.0.1-beta.2",
+    "hapi": "~8.4.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/PlotPDX/PlotPDX.git"
+  },
+  "keywords": [
+    "land",
+    "development",
+    "portland"
+  ],
+  "author": "PlotPDX",
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/nikolaswise/PlotPDX/issues"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "dev": "parallelshell 'node server.js' 'npm run watch:js' 'npm run watch:form' 'npm run watch:sass' 'npm run watch:html'",
+    "compile": "browserify -e src/assets/js/index.js -d -t [ babelify --sourceMapRelative .] -o www/assets/js/bundle.js",
+    "fmt": "standard --format",
+    "img": "imageoptim -d src/assets/img/",
+    "predev": "npm run prepublish",
+    "prepublish": "npm run compile && npm run sass && npm run build",
+    "sass": "scss-cli --include-path node_modules/ 'src/assets/css/style.scss' -o www/assets/css",
+    "build": "acetate build",
+    "watch:js": "fsmonitor -d src/assets/js/ npm run compile",
+    "watch:sass": "fsmonitor -d src/assets/css/ npm run sass ",
+    "watch:html": "fsmonitor -d src/ npm run build"
+  }
+}

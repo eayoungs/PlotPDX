@@ -1,0 +1,35 @@
+// default
+a {
+  color: $off-black;
+  text-decoration: none;
+  &:hover {
+    color: $blue;
+    text-decoration: none;
+  }
+}
+
+hr {
+  border: 0;
+  height: 4px;
+  background: $lightest-gray;
+}
+
+// Fonts
+html {
+  font-size: 16px;
+  color: $off-black;
+  background-color: $off-white;
+}
+
+body {
+  margin:0;
+  padding:0;
+}
+
+#map {
+  position: absolute;
+  top:0;
+  bottom:0;
+  right:0;
+  left:0;
+}

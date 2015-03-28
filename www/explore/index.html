@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+  <head>
+
+    <!-- Set encoding -->
+    <meta charset="utf-8">
+
+    <!-- Always force latest IE rendering engine or request Chrome Frame -->
+    <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible">
+    <meta name="viewport" content="width=device-width, user-scalable=no">
+
+    <!-- Use title from page frontmatter -->
+    <title>Explore | Plot PDX</title>
+
+    <!-- Link to favicon -->
+    <!-- <link rel="shortcut icon" href="../assets/img/favicon.ico"> -->
+
+    <!-- stylesheets -->
+    <link rel="stylesheet" href="../assets/css/style.css">
+
+    <!-- google fonts -->
+    <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,300italic,400italic,600italic|Source+Serif+Pro:400,600' rel='stylesheet' type='text/css'>
+
+    <!-- leaflet -->
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/leaflet/0.7.3/leaflet.css" />
+    <script src="//cdn.jsdelivr.net/leaflet/0.7.3/leaflet.js"></script>
+    <script src="http://cdn-geoweb.s3.amazonaws.com/esri-leaflet/1.0.0-rc.6/esri-leaflet.js"></script>
+    <script src="http://cdn-geoweb.s3.amazonaws.com/esri-leaflet-renderers/0.0.1-beta.3/esri-leaflet-renderers.js"></script>
+    <script src="http://cdn-geoweb.s3.amazonaws.com/esri-leaflet-geocoder/1.0.0-rc.4/esri-leaflet-geocoder.js"></script>
+    <link rel="stylesheet" type="text/css" href="http://cdn-geoweb.s3.amazonaws.com/esri-leaflet-geocoder/1.0.0-rc.4/esri-leaflet-geocoder.css">
+
+    
+  </head>
+  <body>
+
+    <div class="wrapper">
+      <header class="top-nav">
+        <div class="left top-nav-logo font-size-1">
+          <span>
+            <a href="/" class="top-nav-logo-link link-white">
+              <span class="site-name">! PlotPDX</span>
+            </a>
+            <span class="text-black font-size-0"> Choose your city’s story</span>
+          </span>
+        </div>
+        <nav class="right top-nav-sections">
+          <a href="/explore" class="top-nav-add link-white"></a>
+          <a href="/about" class="top-nav-about link-white"></a>
+        </nav>
+      </header>
+
+      
+<div id="map" class="map-fullscreen"></div>
+<script>
+
+  var map = L.map('map').setView([45.52, -122.6819], 16);
+
+  L.esri.basemapLayer('Gray').addTo(map);
+
+  var searchControl = new L.esri.Geocoding.Controls.Geosearch({
+    useMapBounds: 13
+  }).addTo(map);
+
+  // var results = new L.LayerGroup().addTo(map);
+
+  searchControl.on('results', function(data){
+    map.panTo(data.results[0].latlng)
+
+  });
+
+  vacantLots = L.esri.featureLayer('http://services.arcgis.com/rOo16HdIMeOBI4Mb/ArcGIS/rest/services/NonPark_vacant_BLInon_openspace/FeatureServer/0',{
+    simplifyFactor: 0.4,
+    precision: 5,
+    style: function (feature) {
+      if(feature.properties.isPublic == 1){
+        return {color: '#c51b8a', weight: 0, fillOpacity: 0.6};
+      }
+      else {
+        return {color: '#b2182b', weight: 0, fillOpacity: 0.6};
+      }
+    }
+  }).addTo(map);
+
+  newResPermits = L.esri.featureLayer('http://services.arcgis.com/rOo16HdIMeOBI4Mb/arcgis/rest/services/New%20Construction%20Residential%20Permits/FeatureServer/0');
+
+  var overlays = {
+    "New Residential Construction Permits": newResPermits,
+  };
+
+  L.control.layers(overlays).addTo(map);
+
+  vacantLots.bindPopup(function(feature){
+    return L.Util.template('<p><strong>Owner: </strong>{OWNER1}<br><strong>Address:</strong> {SITEADDR}<br><strong>General Use:</strong> {GEN_USE}</p> <p><a href="/new-plot" class="link-white btn btn-blue">I have an idea</a></p>', feature.properties);
+  });
+
+
+</script>
+
+    </div>
+
+    <footer class="footer">
+      <nav class="text-center">
+        <a class="footer-link" href="/about">About PlotPDX</a>
+        <a class="footer-link" href="/colophon">About the Data</a>
+        <a class="footer-link" href="/faq">Frequently Asked Questions</a>
+        <a class="footer-link" href="/team">The Team</a>
+      </nav>
+    </footer>
+
+    <script src="/assets/js/bundle.js"></script>
+
+  </body>
+</html>

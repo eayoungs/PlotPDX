@@ -1,0 +1,38 @@
+---
+title: Home
+description: Discover and Engage
+---
+
+<header class='header text-center padding-leader-5 padding-trailer-6 trailer-2'>
+  <div class="container">
+    <div class="column-12">
+      <h1 class="header-bold text-blue">! Plot PDX</h1>
+      <h2 class="font-size-2 text-white">Welcome! Scroll around, see what lots or buildings are underutilized in&nbsp;your&nbsp;city.</h2>
+    </div>
+  </div>
+</header>
+
+
+{% for plot in plots %}
+  <section class="container">
+    <div class="trailer-1 column-12 plot-suggestion">
+      <div class="column-6">
+        <a href="/this-plot">
+          {% if plot.properties.img %}
+            <img class="map-thumbnail" src="/assets/img/{{plot.properties.img}}">
+          {% else %}
+            <img class="map-thumbnail" src="http://www.fillmurray.com/460/300">
+          {% endif %}
+        </a>
+      </div>
+      <div class="column-5 pre-1">
+        <h3 class="header-bold leader-0">
+          <a href="/this-plot">{{ plot.properties.where }}</a>
+        </h3>
+        <p class="text-blue font-size-1">Would this empty lot serve the city better as a <span class="text-teal font-size-1">{{ plot.properties.suggestion }}?</span></p>
+        <button class="btn btn-blue">Yes</button> <button class="btn btn-red">No</button>
+      </div>
+    </div>
+  </section>
+  <hr class="trailer-1">
+{% endfor %}
