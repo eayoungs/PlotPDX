@@ -510,10 +510,10 @@ img {
     margin-right: 864px !important; } }
 
 .leader-half {
-  margin-top: 0.75rem; }
+  margin-top: 0.875rem; }
 
 .trailer-half {
-  margin-bottom: 0.75rem; }
+  margin-bottom: 0.875rem; }
 
 .leader-0 {
   margin-top: 0rem; }
@@ -528,76 +528,76 @@ img {
   padding-bottom: 0rem; }
 
 .leader-1 {
-  margin-top: 1.5rem; }
+  margin-top: 1.75rem; }
 
 .trailer-1 {
-  margin-bottom: 1.5rem; }
+  margin-bottom: 1.75rem; }
 
 .padding-leader-1 {
-  padding-top: 1.5rem; }
+  padding-top: 1.75rem; }
 
 .padding-trailer-1 {
-  padding-bottom: 1.5rem; }
+  padding-bottom: 1.75rem; }
 
 .leader-2 {
-  margin-top: 3rem; }
+  margin-top: 3.5rem; }
 
 .trailer-2 {
-  margin-bottom: 3rem; }
+  margin-bottom: 3.5rem; }
 
 .padding-leader-2 {
-  padding-top: 3rem; }
+  padding-top: 3.5rem; }
 
 .padding-trailer-2 {
-  padding-bottom: 3rem; }
+  padding-bottom: 3.5rem; }
 
 .leader-3 {
-  margin-top: 4.5rem; }
+  margin-top: 5.25rem; }
 
 .trailer-3 {
-  margin-bottom: 4.5rem; }
+  margin-bottom: 5.25rem; }
 
 .padding-leader-3 {
-  padding-top: 4.5rem; }
+  padding-top: 5.25rem; }
 
 .padding-trailer-3 {
-  padding-bottom: 4.5rem; }
+  padding-bottom: 5.25rem; }
 
 .leader-4 {
-  margin-top: 6rem; }
+  margin-top: 7rem; }
 
 .trailer-4 {
-  margin-bottom: 6rem; }
+  margin-bottom: 7rem; }
 
 .padding-leader-4 {
-  padding-top: 6rem; }
+  padding-top: 7rem; }
 
 .padding-trailer-4 {
-  padding-bottom: 6rem; }
+  padding-bottom: 7rem; }
 
 .leader-5 {
-  margin-top: 7.5rem; }
+  margin-top: 8.75rem; }
 
 .trailer-5 {
-  margin-bottom: 7.5rem; }
+  margin-bottom: 8.75rem; }
 
 .padding-leader-5 {
-  padding-top: 7.5rem; }
+  padding-top: 8.75rem; }
 
 .padding-trailer-5 {
-  padding-bottom: 7.5rem; }
+  padding-bottom: 8.75rem; }
 
 .leader-6 {
-  margin-top: 9rem; }
+  margin-top: 10.5rem; }
 
 .trailer-6 {
-  margin-bottom: 9rem; }
+  margin-bottom: 10.5rem; }
 
 .padding-leader-6 {
-  padding-top: 9rem; }
+  padding-top: 10.5rem; }
 
 .padding-trailer-6 {
-  padding-bottom: 9rem; }
+  padding-bottom: 10.5rem; }
 
 @media screen and (max-width: 719px) {
   .tablet-leader-0 {
@@ -609,53 +609,53 @@ img {
   .tablet-padding-trailer-0 {
     padding-bottom: 0rem; }
   .tablet-leader-1 {
-    margin-top: 1.5rem; }
+    margin-top: 1.75rem; }
   .tablet-trailer-1 {
-    margin-bottom: 1.5rem; }
+    margin-bottom: 1.75rem; }
   .tablet-padding-leader-1 {
-    padding-top: 1.5rem; }
+    padding-top: 1.75rem; }
   .tablet-padding-trailer-1 {
-    padding-bottom: 1.5rem; }
+    padding-bottom: 1.75rem; }
   .tablet-leader-2 {
-    margin-top: 3rem; }
+    margin-top: 3.5rem; }
   .tablet-trailer-2 {
-    margin-bottom: 3rem; }
+    margin-bottom: 3.5rem; }
   .tablet-padding-leader-2 {
-    padding-top: 3rem; }
+    padding-top: 3.5rem; }
   .tablet-padding-trailer-2 {
-    padding-bottom: 3rem; }
+    padding-bottom: 3.5rem; }
   .tablet-leader-3 {
-    margin-top: 4.5rem; }
+    margin-top: 5.25rem; }
   .tablet-trailer-3 {
-    margin-bottom: 4.5rem; }
+    margin-bottom: 5.25rem; }
   .tablet-padding-leader-3 {
-    padding-top: 4.5rem; }
+    padding-top: 5.25rem; }
   .tablet-padding-trailer-3 {
-    padding-bottom: 4.5rem; }
+    padding-bottom: 5.25rem; }
   .tablet-leader-4 {
-    margin-top: 6rem; }
+    margin-top: 7rem; }
   .tablet-trailer-4 {
-    margin-bottom: 6rem; }
+    margin-bottom: 7rem; }
   .tablet-padding-leader-4 {
-    padding-top: 6rem; }
+    padding-top: 7rem; }
   .tablet-padding-trailer-4 {
-    padding-bottom: 6rem; }
+    padding-bottom: 7rem; }
   .tablet-leader-5 {
-    margin-top: 7.5rem; }
+    margin-top: 8.75rem; }
   .tablet-trailer-5 {
-    margin-bottom: 7.5rem; }
+    margin-bottom: 8.75rem; }
   .tablet-padding-leader-5 {
-    padding-top: 7.5rem; }
+    padding-top: 8.75rem; }
   .tablet-padding-trailer-5 {
-    padding-bottom: 7.5rem; }
+    padding-bottom: 8.75rem; }
   .tablet-leader-6 {
-    margin-top: 9rem; }
+    margin-top: 10.5rem; }
   .tablet-trailer-6 {
-    margin-bottom: 9rem; }
+    margin-bottom: 10.5rem; }
   .tablet-padding-leader-6 {
-    padding-top: 9rem; }
+    padding-top: 10.5rem; }
   .tablet-padding-trailer-6 {
-    padding-bottom: 9rem; } }
+    padding-bottom: 10.5rem; } }
 
 @media screen and (max-width: 479px) {
   .phone-leader-0 {
@@ -667,53 +667,53 @@ img {
   .phone-padding-trailer-0 {
     padding-bottom: 0rem; }
   .phone-leader-1 {
-    margin-top: 1.5rem; }
+    margin-top: 1.75rem; }
   .phone-trailer-1 {
-    margin-bottom: 1.5rem; }
+    margin-bottom: 1.75rem; }
   .phone-padding-leader-1 {
-    padding-top: 1.5rem; }
+    padding-top: 1.75rem; }
   .phone-padding-trailer-1 {
-    padding-bottom: 1.5rem; }
+    padding-bottom: 1.75rem; }
   .phone-leader-2 {
-    margin-top: 3rem; }
+    margin-top: 3.5rem; }
   .phone-trailer-2 {
-    margin-bottom: 3rem; }
+    margin-bottom: 3.5rem; }
   .phone-padding-leader-2 {
-    padding-top: 3rem; }
+    padding-top: 3.5rem; }
   .phone-padding-trailer-2 {
-    padding-bottom: 3rem; }
+    padding-bottom: 3.5rem; }
   .phone-leader-3 {
-    margin-top: 4.5rem; }
+    margin-top: 5.25rem; }
   .phone-trailer-3 {
-    margin-bottom: 4.5rem; }
+    margin-bottom: 5.25rem; }
   .phone-padding-leader-3 {
-    padding-top: 4.5rem; }
+    padding-top: 5.25rem; }
   .phone-padding-trailer-3 {
-    padding-bottom: 4.5rem; }
+    padding-bottom: 5.25rem; }
   .phone-leader-4 {
-    margin-top: 6rem; }
+    margin-top: 7rem; }
   .phone-trailer-4 {
-    margin-bottom: 6rem; }
+    margin-bottom: 7rem; }
   .phone-padding-leader-4 {
-    padding-top: 6rem; }
+    padding-top: 7rem; }
   .phone-padding-trailer-4 {
-    padding-bottom: 6rem; }
+    padding-bottom: 7rem; }
   .phone-leader-5 {
-    margin-top: 7.5rem; }
+    margin-top: 8.75rem; }
   .phone-trailer-5 {
-    margin-bottom: 7.5rem; }
+    margin-bottom: 8.75rem; }
   .phone-padding-leader-5 {
-    padding-top: 7.5rem; }
+    padding-top: 8.75rem; }
   .phone-padding-trailer-5 {
-    padding-bottom: 7.5rem; }
+    padding-bottom: 8.75rem; }
   .phone-leader-6 {
-    margin-top: 9rem; }
+    margin-top: 10.5rem; }
   .phone-trailer-6 {
-    margin-bottom: 9rem; }
+    margin-bottom: 10.5rem; }
   .phone-padding-leader-6 {
-    padding-top: 9rem; }
+    padding-top: 10.5rem; }
   .phone-padding-trailer-6 {
-    padding-bottom: 9rem; } }
+    padding-bottom: 10.5rem; } }
 
 .show {
   visibility: visible; }
@@ -913,8 +913,8 @@ html {
 
 body {
   font-size: 1rem;
-  line-height: 1.5rem;
-  line-height: 1.5rem;
+  line-height: 1.75rem;
+  line-height: 1.75rem;
   -webkit-font-feature-settings: "kern";
   -moz-font-feature-settings: "kern";
   font-feature-settings: "kern";
@@ -931,7 +931,7 @@ body {
 
 h1 {
   font-size: 3.17685rem;
-  line-height: 3rem; }
+  line-height: 3.5rem; }
   h1 small, h1 sup, h1 sub {
     font-size: 2.61792rem; }
 
@@ -942,7 +942,7 @@ h2 {
 
 h3 {
   font-size: 1.96344rem;
-  line-height: 2.25rem; }
+  line-height: 2.625rem; }
   h3 small, h3 sup, h3 sub {
     font-size: 1.618rem; }
 
@@ -953,29 +953,29 @@ h4 {
 
 h5 {
   font-size: 1.2135rem;
-  line-height: 1.5rem; }
+  line-height: 1.75rem; }
   h5 small, h5 sup, h5 sub {
     font-size: 1rem; }
 
 h6 {
   font-size: 1rem;
-  line-height: 1.5rem; }
+  line-height: 1.75rem; }
   h6 small, h6 sup, h6 sub {
     font-size: 0.75rem; }
 
 h1, h2, h3, h4, h5, h6 {
-  margin-bottom: 0.75rem; }
+  margin-bottom: 0.875rem; }
 
 p, ul, ol, dl, blockquote {
   margin-top: 0;
-  margin-bottom: 1.5rem; }
+  margin-bottom: 1.75rem; }
 
 blockquote {
   margin: 0; }
 
 blockquote, blockquote p {
   font-size: 1.2135rem;
-  line-height: 1.5rem; }
+  line-height: 1.75rem; }
   blockquote small, blockquote sup, blockquote sub, blockquote p small, blockquote p sup, blockquote p sub {
     font-size: 1rem; }
 
@@ -983,7 +983,7 @@ ul, ol {
   padding: 0;
   list-style-position: inside; }
   ul ul, ul ol, ol ul, ol ol {
-    padding-left: 1.5rem; }
+    padding-left: 1.75rem; }
 
 sub, sup {
   line-height: 0;
@@ -998,7 +998,7 @@ sub {
 
 dl dd {
   margin-left: 0;
-  margin-bottom: 1.5rem; }
+  margin-bottom: 1.75rem; }
 
 code, kbd, pre, samp {
   font-family: 'Consolas', 'Andale Mono', 'Lucida Console', 'Monaco', 'Courier New', Courier, monospace; }
@@ -1066,8 +1066,8 @@ mark {
       padding: 0 .5em 0 0;
       color: #c7c7c7;
       font-size: 1.2135rem;
-      line-height: 1.5rem;
-      line-height: 2.25rem;
+      line-height: 1.75rem;
+      line-height: 2.625rem;
       text-align: right;
       border-right: 2px solid #e6e6e6; }
       .list-numbered > li:before small, .list-numbered > li:before sup, .list-numbered > li:before sub {
@@ -1090,31 +1090,31 @@ mark {
 
 .font-size--3 {
   font-size: 0.46354rem;
-  line-height: 1.5rem; }
+  line-height: 1.75rem; }
   .font-size--3 small, .font-size--3 sup, .font-size--3 sub {
     font-size: 0.38198rem; }
 
 .font-size--2 {
   font-size: 0.61805rem;
-  line-height: 1.5rem; }
+  line-height: 1.75rem; }
   .font-size--2 small, .font-size--2 sup, .font-size--2 sub {
     font-size: 0.46354rem; }
 
 .font-size--1 {
   font-size: 0.75rem;
-  line-height: 1.5rem; }
+  line-height: 1.75rem; }
   .font-size--1 small, .font-size--1 sup, .font-size--1 sub {
     font-size: 0.61805rem; }
 
 .font-size-0 {
   font-size: 1rem;
-  line-height: 1.5rem; }
+  line-height: 1.75rem; }
   .font-size-0 small, .font-size-0 sup, .font-size-0 sub {
     font-size: 0.75rem; }
 
 .font-size-1 {
   font-size: 1.2135rem;
-  line-height: 1.5rem; }
+  line-height: 1.75rem; }
   .font-size-1 small, .font-size-1 sup, .font-size-1 sub {
     font-size: 1rem; }
 
@@ -1125,7 +1125,7 @@ mark {
 
 .font-size-3 {
   font-size: 1.96344rem;
-  line-height: 2.25rem; }
+  line-height: 2.625rem; }
   .font-size-3 small, .font-size-3 sup, .font-size-3 sub {
     font-size: 1.618rem; }
 
@@ -1136,7 +1136,7 @@ mark {
 
 .font-size-5 {
   font-size: 3.17685rem;
-  line-height: 3rem; }
+  line-height: 3.5rem; }
   .font-size-5 small, .font-size-5 sup, .font-size-5 sub {
     font-size: 2.61792rem; }
 

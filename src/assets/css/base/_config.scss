@@ -20,7 +20,9 @@ $transparent-black:        rgba(0, 0, 0, 0.75);
 // ┌──────────────┐
 // │ COLOR: BRAND │
 // └──────────────┘
-
+$blue:                     #68bfe4;
+$red:                      #db6767;
+$teal:                     #50e3c2;
 
 
 // ┌─────────────────┐
@@ -150,5 +152,5 @@ $small-class:              'phone';
 $small-column-count:       6;
 
 // Vertical Rhythm
-$baseline:                 1.5rem;
+$baseline:                 1.75rem;
 $vertical-range:           6;
